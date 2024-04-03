@@ -17,7 +17,7 @@ public class WordList
           count++;
       return count;
   }
-
+  }
   public void removeWordsOfLength(int len){
     int i = 0;
     while(i < myList.size()){
@@ -27,4 +27,4 @@ public class WordList
         else
             i++;
     }
-
+  }
